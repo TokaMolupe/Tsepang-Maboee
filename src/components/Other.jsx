@@ -8,7 +8,7 @@ function Other() {
                 <NavLink to="/">
                     <BiHomeHeart className="text-5xl" />
                 </NavLink>
-                <h1 className="font-bold text-center text-5xl mb-10 ml-10">Services / Awards / Skills</h1>
+                <h1 className="font-bold text-center text-5xl mb-10 ml-10">Services / Skills / Awards</h1>
             </div>
             <div className="flex flex-wrap justify-center items-center cursor-default">
                 <div className="p-2 shadow-md hover:shadow-lg shadow-black hover:shadow-black rounded-lg w-full md:w-1/4 h-[300px] md:h-[450px] mr-10 mb-10">

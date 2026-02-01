@@ -10,20 +10,20 @@ function Navbar() {
 
     return (
         <div className='flex justify-between'>
-            <div className='p-6 rounded-md w-full md:w-[600px] bg-transparent md:bg-[#CAC3BA] md:shadow-md sm:shadow-black md:hover:shadow-lg sm:hover:shadow-black'>
+            <div className='p-6 rounded-md w-full md:w-[650px] bg-transparent md:bg-[#CAC3BA] md:shadow-md sm:shadow-black md:hover:shadow-lg sm:hover:shadow-black'>
 
-                <ul className={`flex-col justify-between items-center md:flex md:flex-row md:space-x-6 ${menuOpen ? 'flex' : 'hidden'} md:flex`}>
-                    <li className="hover:scale-105 md:hover:text-white text-lg shadow-md shadow-[#4D2A22] rounded-md w-[150px] h-[50px] p-2 md:shadow-none mb-5">
+                <ul className={`flex-col justify-between items-center gap-5 md:flex md:flex-row md:space-x-6 ${menuOpen ? 'flex' : 'hidden'} md:flex`}>
+                    <li className="hover:scale-105 md:hover:text-white text-lg shadow-md shadow-[#4D2A22] rounded-md w-[150px] h-[50px] p-2 md:shadow-none">
                         <NavLink to="/about" onClick={() => setMenuOpen(false)}>
                             About Me
                         </NavLink>
                     </li>
-                    <li className="hover:scale-105 md:hover:text-white text-lg shadow-md shadow-[#4D2A22] rounded-md w-[150px] h-[50px] p-2 md:shadow-none mb-5">
+                    <li className="hover:scale-105 md:hover:text-white text-lg shadow-md shadow-[#4D2A22] rounded-md w-[150px] h-[50px] p-2 md:shadow-none">
                         <NavLink to="/projects" onClick={() => setMenuOpen(false)}>
                             Projects
                         </NavLink>
                     </li>
-                    <li className="hover:scale-105 md:hover:text-white text-lg shadow-md shadow-[#4D2A22] rounded-md w-[150px] h-[50px] p-2 md:shadow-none mb-5">
+                    <li className="hover:scale-105 md:hover:text-white text-lg shadow-md shadow-[#4D2A22] rounded-md w-[150px] h-[50px] p-2 md:shadow-none">
                         <NavLink to="/contacts" onClick={() => setMenuOpen(false)}>
                             Contact Me
                         </NavLink>
