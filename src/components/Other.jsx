@@ -34,7 +34,7 @@ function Other() {
                         </NavLink>
                     </button>
                 </div>
-                <div className="p-2 shadow-md hover:shadow-lg shadow-black hover:shadow-black rounded-lg w-full md:w-1/4 h-[350px] md:h-[450px] mr-10 mb-10">
+                <div className="p-2 shadow-md hover:shadow-lg shadow-black hover:shadow-black rounded-lg w-full md:w-1/4 h-[380px] md:h-[450px] mr-10 mb-10">
                     <h1 className="font-bold text-xl mt-3">Certificates and awards</h1>
                     <ul>
                         <li className="text-center mb-3 mt-3">Basotho Women Empowerment award</li>

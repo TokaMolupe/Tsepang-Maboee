@@ -13,22 +13,22 @@ function Navbar() {
             <div className='p-6 rounded-md w-full md:w-[600px] bg-transparent md:bg-[#CAC3BA] md:shadow-md sm:shadow-black md:hover:shadow-lg sm:hover:shadow-black'>
 
                 <ul className={`flex-col justify-between items-center md:flex md:flex-row md:space-x-6 ${menuOpen ? 'flex' : 'hidden'} md:flex`}>
-                    <li className="hover:scale-105 md:hover:text-white text-lg border-2 border-black w-[150px] h-[50px] p-2 md:border-0">
+                    <li className="hover:scale-105 md:hover:text-white text-lg shadow-md shadow-[#4D2A22] rounded-md w-[150px] h-[50px] p-2 md:shadow-none mb-5">
                         <NavLink to="/about" onClick={() => setMenuOpen(false)}>
                             About Me
                         </NavLink>
                     </li>
-                    <li className="hover:scale-105 md:hover:text-white text-lg border-2 border-black w-[150px] h-[50px] p-2 md:border-0">
+                    <li className="hover:scale-105 md:hover:text-white text-lg shadow-md shadow-[#4D2A22] rounded-md w-[150px] h-[50px] p-2 md:shadow-none mb-5">
                         <NavLink to="/projects" onClick={() => setMenuOpen(false)}>
                             Projects
                         </NavLink>
                     </li>
-                    <li className="hover:scale-105 md:hover:text-white text-lg border-2 border-black w-[150px] h-[50px] p-2 md:border-0">
+                    <li className="hover:scale-105 md:hover:text-white text-lg shadow-md shadow-[#4D2A22] rounded-md w-[150px] h-[50px] p-2 md:shadow-none mb-5">
                         <NavLink to="/contacts" onClick={() => setMenuOpen(false)}>
                             Contact Me
                         </NavLink>
                     </li>
-                    <li className="hover:scale-105 md:hover:text-white text-lg border-2 border-black w-[150px] h-[50px] p-2 md:border-0">
+                    <li className="hover:scale-105 md:hover:text-white text-lg shadow-md shadow-[#4D2A22] rounded-md w-[150px] h-[50px] p-2 md:shadow-none">
                         <NavLink to="/others" onClick={() => setMenuOpen(false)}>
                             Others
                         </NavLink>
